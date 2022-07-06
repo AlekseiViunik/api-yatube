@@ -65,7 +65,7 @@ class FollowSerializer(serializers.ModelSerializer):
         already_following = Follow.objects.filter(
             user=current_user,
             following=following
-        )
+        ).exists()
         if already_following:
             raise serializers.ValidationError(
                 f'Вы уже подписаны на пользователя {following}'
