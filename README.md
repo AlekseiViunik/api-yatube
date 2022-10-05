@@ -3,7 +3,7 @@
 
 API на основе сообщества [Yatube](https://github.com/AleksandrUsolcev/hw05_final)
 
-### Технологии
+## Технологии
 - Python 3.7+
 - [django](https://github.com/django/django) 2.2.16
 - [django-rest-framework](https://github.com/encode/django-rest-framework) 3.12.4
