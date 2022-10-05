@@ -1,5 +1,7 @@
 # Yatube API
-API на основе сообщества Yatube
+![Python version](https://img.shields.io/badge/python-3.7-yellow) ![Django version](https://img.shields.io/badge/django-2.2-orange)
+
+API на основе сообщества [Yatube](https://github.com/AleksandrUsolcev/hw05_final)
 
 ### Технологии
 - Python 3.7+
@@ -12,12 +14,12 @@ API на основе сообщества Yatube
 Клонировать репозиторий
 Установить и активируйте виртуальное окружение
 ```
-$ python3 -m venv venv
+python3 -m venv venv
 
 # Активация окружения для Mac или Linux:
-$ source venv/bin/activate 
+source venv/bin/activate 
 # и для Windows:
-$ source venv/Scripts/activate 
+source venv/Scripts/activate 
 ``` 
 Установить зависимости из файла requirements.txt
 ```
