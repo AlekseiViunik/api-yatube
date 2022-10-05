@@ -10,7 +10,7 @@ API на основе сообщества [Yatube](https://github.com/Aleksandr
 - [Simple JWT](https://github.com/jazzband/djangorestframework-simplejwt) 4.7.2
 - [djoser](https://github.com/sunscrapers/djoser) 2.1.0
 
-### Запуск проекта в dev-режиме
+## Запуск проекта в dev-режиме
 Клонировать репозиторий
 Установить и активируйте виртуальное окружение
 ```
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py runserver
 ``` 
-### Получение персонального токена
+## Получение персонального токена
 Для взаимодействия с API необходимо завести учетную запись пользователя, 
 или суперпользователя и иметь персональный токен
 ```
@@ -49,6 +49,6 @@ python3 manage.py createsuperuser
 KEY: Authorization
 VALUE: Bearer <ваш токен>
 ``` 
-### Примеры запросов
+## Примеры запросов
 **Полный список запросов можно посмотреть перейдя на .../redoc/ 
 развернутого проекта**
