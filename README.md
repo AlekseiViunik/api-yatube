@@ -1,7 +1,7 @@
 # Yatube API
 ![Python version](https://img.shields.io/badge/python-3.7-yellow) ![Django version](https://img.shields.io/badge/django-2.2-orange)
 
-API на основе сообщества [Yatube](https://github.com/AleksandrUsolcev/hw05_final)
+API на основе сообщества [Yatube](https://github.com/AleksandrUsolcev/yatube)
 
 ## Технологии
 - Python 3.7+
